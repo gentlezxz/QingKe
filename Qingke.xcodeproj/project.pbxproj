@@ -15,6 +15,7 @@
 		B391881B1D8797F1006DDE81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39188191D8797F1006DDE81 /* LaunchScreen.storyboard */; };
 		B39188261D8797F1006DDE81 /* QingkeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B39188251D8797F1006DDE81 /* QingkeTests.m */; };
 		B39188311D8797F1006DDE81 /* QingkeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B39188301D8797F1006DDE81 /* QingkeUITests.m */; };
+		B39188401D879D3E006DDE81 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B391883F1D879D3E006DDE81 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B391882C1D8797F1006DDE81 /* QingkeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QingkeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39188301D8797F1006DDE81 /* QingkeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QingkeUITests.m; sourceTree = "<group>"; };
 		B39188321D8797F1006DDE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B391883E1D879D3E006DDE81 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		B391883F1D879D3E006DDE81 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B391880F1D8797F1006DDE81 /* AppDelegate.m */,
 				B39188111D8797F1006DDE81 /* ViewController.h */,
 				B39188121D8797F1006DDE81 /* ViewController.m */,
+				B391883E1D879D3E006DDE81 /* TableViewCell.h */,
+				B391883F1D879D3E006DDE81 /* TableViewCell.m */,
 				B39188141D8797F1006DDE81 /* Main.storyboard */,
 				B39188171D8797F1006DDE81 /* Assets.xcassets */,
 				B39188191D8797F1006DDE81 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B39188131D8797F1006DDE81 /* ViewController.m in Sources */,
+				B39188401D879D3E006DDE81 /* TableViewCell.m in Sources */,
 				B39188101D8797F1006DDE81 /* AppDelegate.m in Sources */,
 				B391880D1D8797F1006DDE81 /* main.m in Sources */,
 			);
@@ -499,6 +505,7 @@
 				B39188371D8797F1006DDE81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B39188381D8797F1006DDE81 /* Build configuration list for PBXNativeTarget "QingkeTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				B391883A1D8797F1006DDE81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B391883B1D8797F1006DDE81 /* Build configuration list for PBXNativeTarget "QingkeUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				B391883D1D8797F1006DDE81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
