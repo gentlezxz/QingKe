@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		259C56AC1D87A5B8001A2EC1 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		36EF205C6DC22849524437D4 /* Pods_Qingke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qingke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		414E81F6CAAA0357B92D97AA /* Pods-Qingke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qingke.release.xcconfig"; path = "Pods/Target Support Files/Pods-Qingke/Pods-Qingke.release.xcconfig"; sourceTree = "<group>"; };
 		9398F69C796CD2265AD7DDFD /* Pods-Qingke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qingke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Qingke/Pods-Qingke.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +130,7 @@
 				B391880F1D8797F1006DDE81 /* AppDelegate.m */,
 				B39188111D8797F1006DDE81 /* ViewController.h */,
 				B39188121D8797F1006DDE81 /* ViewController.m */,
+				259C56AC1D87A5B8001A2EC1 /* Header.h */,
 				B39188141D8797F1006DDE81 /* Main.storyboard */,
 				B39188171D8797F1006DDE81 /* Assets.xcassets */,
 				B39188191D8797F1006DDE81 /* LaunchScreen.storyboard */,
